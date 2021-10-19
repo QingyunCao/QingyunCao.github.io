@@ -21,7 +21,8 @@
 			'xlarge-to-max':    '(min-width: 1681px)',
 			'small-to-xlarge':  '(min-width: 481px) and (max-width: 1680px)'
 		});
-        //var audio = document.getElementById('music1');
+		
+		//var audio = document.getElementById('music1');
  
          $("#btn").bind("touchstart", function bf() {
          if(audio !== null) {
@@ -35,10 +36,11 @@
          $("#btn").removeClass("active")
          }
          }
-         })
+         });
          //$("html").one('touchstart',function(){
          audio.play();
-         })
+         });
+        
 
 	// Stops animations/transitions until the page has ...
 
