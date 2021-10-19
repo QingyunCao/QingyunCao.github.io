@@ -37,9 +37,6 @@
          }
          }
          });
-         //$("html").one('touchstart',function(){
-         audio.play();
-         });
         
 
 	// Stops animations/transitions until the page has ...
